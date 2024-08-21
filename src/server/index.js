@@ -14,7 +14,9 @@ app.use(bodyParser.json());
 
 app.use("/", express.static(path.join(__dirname, "../public")));
 
-// your API calls
+// ------------------------------------------------------  Your API calls
+
+// Get rover by name parameter
 app.get("/rovers/:name", async (req, res) => {
   try {
     let images = await fetch(
