@@ -54,7 +54,7 @@ const App = (state) => {
           <div class="navbar-flex">
               <div class="logo-flex" onclick="handleHome(event)">
                  <a href="#"><img src="./assets/mars.png" alt="Mars icon"></a>
-                  <p>Mars</p>
+                  <p>Mars Dashboard</p>
                </div>
                <ul class="items-navbar">${renderMenuItems(state)}<ul>
           </div>
